@@ -1,15 +1,16 @@
 # HackerNewsConsole
 
+A basic console news reader following the [Hacker News API](https://github.com/HackerNews/API)
 
 #### Assumptions
 
-- have a local php (test by typing `php -v` in terminal) 
+- have a local php (test by typing `php -v` in terminal)
 
 
 #### Installation
 
-- clone this repo
-- cd to the directoy
+- clone this repo `git clone git@github.com:daniel-rees/HackerNewsConsole.git`
+- cd to the directory `cd HackerNewsConsole/`
 - run using `php news.php`
 
 * Timeout of 2 seconds per news title
@@ -27,4 +28,4 @@
 
 #### Example
 
-![Example](docs/exmple.png?raw=true)
+![Example](/docs/exmple.png?raw=true)
