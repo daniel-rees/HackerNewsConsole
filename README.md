@@ -28,4 +28,4 @@ A basic console news reader following the [Hacker News API](https://github.com/H
 
 #### Example
 
-![Example](/docs/exmple.png?raw=true)
+![Example](https://github.com/daniel-rees/HackerNewsConsole/blob/master/docs/exmple.png?raw=true)
