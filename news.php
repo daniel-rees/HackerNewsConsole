@@ -175,9 +175,9 @@ class BashNews
 
     } elseif(gettype($resp) == "object" && $resp->type == "story"){
       // die($in);
-      $url = (!empty($resp->url)) ? $resp->url : '';
+      $url = (!empty($resp->url)) ? $resp->url : '[no link]';
       return "[" . $resp->id . "] " . $resp->title . PHP_EOL .
-             "[" . $resp->id . "]     " . $url .")" . PHP_EOL;
+             "[" . $resp->id . "]     " . $url ."" . PHP_EOL;
     }
 
     return false;
