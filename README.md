@@ -1,1 +1,30 @@
 # HackerNewsConsole
+
+
+#### Assumptions
+
+- have a local php (test by typing `php -v` in terminal) 
+
+
+#### Installation
+
+- clone this repo
+- cd to the directoy
+- run using `php news.php`
+
+* Timeout of 2 seconds per news title
+
+- to cancel `CTRL + C`
+
+#### Flags
+
+(in progress)
+
+- `-l top` (lists top news items)
+- `-l new` (lists newest)
+- `-a 12345` (shows article title)
+
+
+#### Example
+
+![Example](docs/exmple.png?raw=true)
